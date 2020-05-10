@@ -1,1 +1,1 @@
-# seattle-map-tiles
+# Seattle Map Tiles
