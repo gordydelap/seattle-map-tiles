@@ -1,1 +1,2 @@
-# seattle-map-tiles
+# Seattle Map Tiles
+![](img/screenshot.png)
