@@ -61,9 +61,9 @@
         detectRetina: true // detect whether the sceen is high resolution or not.
       });
 
-      var baselayer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      var baselayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 13,
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution: 'Map data &copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
       var mytile =L.tileLayer('assets/tiles/{z}/{x}/{y}.png', {
